@@ -17,3 +17,12 @@ div.divTrekking{
   margin : 20px;
 
 }
+
+divResponse {
+  color:red;
+  background-color: lightcoral;
+  border: 2px solid red;
+  margin-top: 10px;
+  padding: 5px;
+  display: none;
+}
