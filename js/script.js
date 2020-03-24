@@ -1,19 +1,25 @@
 "use strickt";
 
-// Globale Variabelen
+var btnBevestig;
+var divResponse;
 
-window.addEventListener('load',Initieer);
+window.addEventListener('load', Initieer);
 
-function Initieer(){
-  // Linken van DOM Elementen
+function Initieer() {
+	KoppelElementen();
+	KoppelEvents();
+	VulStandaardwaarden();
+};
 
-
-  // EventListeners Toevoegen
-
-
-  // Functieaanroep bij opstart of initialiseren variabelen
-
-
+const KoppelElementen = () => {
+	btnBevestig = document.getElementById("btnBevestig");
+	divResponse = document.getElementById("divResponse");
 }
 
-// Functies
+const KoppelEvents = () => {
+	//btnBevestig.addEventListener('click', VoerFunctionUit);
+}
+
+const VulStandaardwaarden = () =>  {
+
+}
