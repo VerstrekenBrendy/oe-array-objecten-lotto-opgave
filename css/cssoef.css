@@ -2,10 +2,17 @@ button{
   margin-top: 20px;
 }
 
+div.juistGetal {
+  background-color: red;
+}
+
+div.verkeerdGetal {
+    background-color: lightblue;
+}
+
 div.cijfer{
   display: inline-block;
   border-radius: 50%;
-  background-color: lightblue;
   height: 50px;
   width: 75px;
   text-align: center;
